@@ -1,4 +1,4 @@
-## TWRP for Infinix Zero 8 X687
+## PBRP for Infinix Zero 8 X687
 
 ### Working
 - Decryption

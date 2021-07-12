@@ -21,7 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
+
+DEVICE_PATH := device/infinix/X687
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root) \
+    $(DEVICE_PATH)/prebuilt/dtb:dtb.img
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X687
