@@ -126,3 +126,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 TW_DEVICE_VERSION := MASTERSENPAI
+
+# PB Torch
+PB_TORCH_PATH := /sys/devices/virtual/torch/torch/torch_level
+PB_TORCH_MAX_BRIGHTNESS := 1
