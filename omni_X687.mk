@@ -46,4 +46,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.build.description \
-    ro.system.build.fingerprint
+    ro.system.build.fingerprint \
+    ro.build.fingerprint
