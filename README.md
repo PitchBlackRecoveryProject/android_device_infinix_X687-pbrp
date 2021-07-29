@@ -6,9 +6,6 @@
 - fastbootd
 - USB OTG
 
-### Issues
-- loop mount errors with Android 11
-
 
 ### Specifications
 - See https://m.gsmarena.com/infinix_zero_8-10401.php
